@@ -1,10 +1,12 @@
 #####    环境运行
-yarn start   本地环境 
-yarn build:test 测试环境 
-yarn build:prod 生产环境
+yarn start----本地环境    
+yarn build:test----测试环境   
+yarn build:prod----生产环境  
 
 #####  多种环境 api 配置
-process.env.REACT_APP_ENV    值为 dev 是本地开发环境  和 测试环境   prod 生产环境
+process.env.REACT_APP_ENV        
+-----dev 是本地开发环境  测试环境     
+-----prod 生产环境
 
 ##### 目录结构描述
 config                      // 配置   
